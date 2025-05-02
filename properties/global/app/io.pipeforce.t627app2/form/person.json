@@ -1,0 +1,8 @@
+{
+  "id": "e97af3b6-7c64-4652-846a-4975624d6dd0",
+  "title": "person",
+  "public": false,
+  "description": "",
+  "schema": "$uri:property:global/app/io.pipeforce.t627app2/schema/person",
+  "output": "$uri:property:global/app/io.pipeforce.t627app2/data/person/"
+}
