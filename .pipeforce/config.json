@@ -17,15 +17,15 @@
       "title": "Last Name",
       "description": "The last name of the person."
     },
-    "gender": {
+    "status": {
       "type": "string",
-      "title": "Gender",
-      "description": "The gender of the person.",
+      "title": "App Repo Status",
+      "description": "The status of app repo",
       "enum": [
-        "male",
-        "female",
-        "neutral"
-      ]
+        "draft",
+        "released",
+      ],
+      "default": "draft"
     },
     "customer": {
       "type": "boolean",
