@@ -1,0 +1,6 @@
+{
+  "title": "person",
+  "description": "",
+  "schema": "$uri:property:global/app/io.pipeforce.t627app4/schema/person",
+  "input": "$uri:command:property.value.list?pattern=global/app/io.pipeforce.t627app4/data/person/*"
+}

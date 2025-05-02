@@ -1,0 +1,22 @@
+{
+	"title": "io.pipeforce.t627app4",
+	"description": "",
+	"icon": "assignment",
+	"color": "teal-8",
+	"tags": [
+		"io.pipeforce.t627app4"
+	],
+	"permissions": {
+		"read": [
+			"ROLE_DEVELOPER",
+			"CAN_APP_io.pipeforce.t627app4"
+		],
+		"view": [
+			"ROLE_DEVELOPER",
+			"CAN_APP_io.pipeforce.t627app4"
+		]
+	},
+	"editions": [
+		"enterprise"
+	]
+}
