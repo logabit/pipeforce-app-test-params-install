@@ -1,1 +1,38 @@
-{"propertiesHome":"properties","requiredVersion":null,"deployWithExtension":false}
+{
+  "propertiesHome":"properties",
+  "requiredVersion":null,
+  "deployWithExtension":false,
+  "allowIndividualAppInstall": false,
+  "installParamsSchema": {
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "title": "First Name",
+      "description": "The first name of the person."
+    },
+    "lastName": {
+      "type": "string",
+      "title": "Last Name",
+      "description": "The last name of the person."
+    },
+    "gender": {
+      "type": "string",
+      "title": "Gender",
+      "description": "The gender of the person.",
+      "enum": [
+        "male",
+        "female",
+        "neutral"
+      ]
+    },
+    "customer": {
+      "type": "boolean",
+      "title": "Customer",
+      "description": "Is the person a customer?"
+    }
+  },
+  "required": ["firstName", "lastName"]
+  }
+}
