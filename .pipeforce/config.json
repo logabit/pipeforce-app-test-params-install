@@ -21,10 +21,7 @@
       "type": "string",
       "title": "App Repo Status",
       "description": "The status of app repo",
-      "enum": [
-        "draft",
-        "released",
-      ],
+      "enum": ["draft","released"],
       "default": "draft"
     },
     "customer": {
