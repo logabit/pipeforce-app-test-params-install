@@ -24,12 +24,12 @@
       "enum": ["draft","released"],
       "default": "draft"
     },
-    "customer": {
-      "type": "boolean",
-      "title": "Customer",
-      "description": "Is the person a customer?"
+    "io.pipeforce.t627app3_newAppName": {
+      "type": "string",
+      "title": "t627app3 New Name",
+      "description": "New name to use for installing the app"
     }
   },
-  "required": ["firstName", "lastName"]
+  "required": ["firstName", "lastName", "io.pipeforce.t627app3_newAppName"]
   }
 }
